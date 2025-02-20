@@ -1,0 +1,18 @@
+/glowroot
+**/.git
+# Ignore Google Cloud service account credentials
+app_resources/fsm/5/key.json
+app_resources/fsm/4/key.json
+app_resources/fsm/3/key.json
+app_resources/fsm/2/key.json
+app_resources/fsm/1/key.json
+# Ignore AWS credentials
+awsS3.properties
+
+# Ignore other common secrets
+*.pem
+*.key
+*.crt
+*.p12
+.env
+*.log

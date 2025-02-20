@@ -1,0 +1,5 @@
+name,phone,email,gender,employee_id,office,office_name,company,company_name,organization_id
+duplikat nohp,+6282111112222,dupidnohp@gmail.com,female,52345abcnhp,3ba43a43-8777-4287-99b3-8967f13e6058,Department 01,e0d10493-fb49-45bf-ad38-384cbcaf6f96,company 01,BCA
+valid submit,+6282111112224,valid@gmail.com,female,52345vld,3ba43a43-8777-4287-99b3-8967f13e6058,Department 01,e0d10493-fb49-45bf-ad38-384cbcaf6f96,company 01,BCA
+valid submit2,+6282111112224,valid2@gmail.com,female,52345vld2,3ba43a43-8777-4287-99b3-8967f13e6058,Department 01,e0d10493-fb49-45bf-ad38-384cbcaf6f96,company 01,BCA
+valid submit3,+6282111112224,valid3@gmail.com,female,52345vld3,3ba43a43-8777-4287-99b3-8967f13e6058,Department 01,e0d10493-fb49-45bf-ad38-384cbcaf6f96,company 01,BCA

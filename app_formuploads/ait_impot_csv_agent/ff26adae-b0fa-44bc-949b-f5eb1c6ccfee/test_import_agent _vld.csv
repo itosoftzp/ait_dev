@@ -1,0 +1,6 @@
+name,phone,email,gender,employee_id,office,office_name,company,company_name,organization_id
+user satu,+6282513308518,user001@mailinator.com,male,777001,62965973-d41d-4df5-91b0-3896c2554299,IT,e6c35cfa-f1f2-4795-bcf8-2cbadc545d55,Itasoft Bdg,orgdemo
+"user dua,+6282513308512,user002@mailinator.com,male,777002,62965973-d41d-4df5-91b0-3896c2554299,IT,e6c35cfa-f1f2-4795-bcf8-2cbadc545d55,Itasoft Bdg,	orgdemo"
+"user tiga,+6282513308513,user003@mailinator.com,male,777003,62965973-d41d-4df5-91b0-3896c2554299,IT,e6c35cfa-f1f2-4795-bcf8-2cbadc545d55,Itasoft Bdg,	orgdemo"
+"user empat,+6282513308514,user004@mailinator.com,male,777004,b5fc5e80-43b0-4590-b9c7-9fc608985972,Finance,e6c35cfa-f1f2-4795-bcf8-2cbadc545d55,Itasoft Bdg,	orgdemo"
+user lima,+6282513308515,user005@mailinator.com,male,777005,b5fc5e80-43b0-4590-b9c7-9fc608985972,Finance,e6c35cfa-f1f2-4795-bcf8-2cbadc545d55,Itasoft Bdg,orgdemo

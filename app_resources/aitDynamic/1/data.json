@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "field": "age",
+      "question": "Berapa usia?",
+      "type": "number",
+      "value": "20"
+    },
+    {
+      "field": "foto",
+      "question": "Foto",
+      "type": "image",
+      "value": ""
+    },
+    {
+      "field": "name",
+      "question": "Siapa anda?",
+      "type": "text",
+      "value": "Dhona"
+    },
+    {
+      "field": "is_married",
+      "question": "Menikah",
+      "type": "text",
+      "value": "yes"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "org.joget.governance.lib.OrphanedFormDataCheck": {
+    "status": "WARN",
+    "timestamp": 1720500829178,
+    "details": [
+      {
+        "detail": "There are form data tables unused by all apps: \u003cbr/\u003e\u003col\u003e\u003cli\u003eapp_fd_ait_mapping_user\u003c/li\u003e\u003cli\u003eapp_fd_apicredential\u003c/li\u003e\u003cli\u003eapp_fd_ait_mst_task_k\u003c/li\u003e\u003cli\u003eapp_fd_api_log\u003c/li\u003e\u003cli\u003eapp_fd_assignmentform\u003c/li\u003e\u003cli\u003eapp_fd_ait_mst_token\u003c/li\u003e\u003cli\u003eapp_fd_app_fd_newdocumentapproval_pd\u003c/li\u003e\u003cli\u003eapp_fd_appcenter\u003c/li\u003e\u003cli\u003eapp_fd_app_fd_ait_token\u003c/li\u003e\u003c/ol\u003e",
+        "suppressed": false
+      }
+    ],
+    "suppressable": true
+  },
+  "org.joget.governance.lib.ResponseTimesCheck": {
+    "status": "PASS",
+    "score": 100,
+    "timestamp": 1720500834324,
+    "suppressable": false
+  },
+  "lastCheckDate": {
+    "status": "FAIL",
+    "timestamp": 1720500822273,
+    "suppressable": false
+  },
+  "org.joget.governance.lib.ErrorRateCheck": {
+    "status": "PASS",
+    "score": 100,
+    "timestamp": 1720500825988,
+    "suppressable": false
+  },
+  "org.joget.governance.lib.SecureProcessesCheck": {
+    "status": "FAIL",
+    "timestamp": 1720500834329,
+    "details": [
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Participant “Participant” is not mapped in \u003cb\u003eProcess Overdue\u003c/b\u003e",
+        "link": "/web/console/app/fsm/3/process/builder#overdue",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eTest Repeter\u003c/b\u003e: Participant “Participant 2” is not mapped in \u003cb\u003eProcess 1\u003c/b\u003e",
+        "link": "/web/console/app/testRepeter/1/process/builder#process1",
+        "appId": "testRepeter",
+        "suppressed": false
+      }
+    ],
+    "suppressable": true
+  },
+  "org.joget.governance.lib.SecureAuthenticationCheck": {
+    "status": "PASS",
+    "timestamp": 1720500834328,
+    "details": [
+      {
+        "detail": "Security Enhanced Directory Manager is enabled",
+        "suppressed": false
+      }
+    ],
+    "suppressable": false
+  },
+  "org.joget.governance.lib.EmailUsageCheck": {
+    "status": "WARN",
+    "timestamp": 1720500822313,
+    "details": [
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: List \u003cb\u003eList - Tes Dao\u003c/b\u003e has following emails used: \u003col\u003e\u003cli\u003eadminsales@demo.com\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/datalist/builder/listTesDao",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: List \u003cb\u003eList Test Query\u003c/b\u003e has following emails used: \u003col\u003e\u003cli\u003eadmindep30@mailinator.com\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/datalist/builder/testList",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: List \u003cb\u003eList Test\u003c/b\u003e has following emails used: \u003col\u003e\u003cli\u003edhona.dwi@itasoft.co.id\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/datalist/builder/listTes",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: UI \u003cb\u003eField Service Management\u003c/b\u003e has following emails used: \u003col\u003e\u003cli\u003ename@example.com\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/userview/builder/FieldServiceManagement",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: App Variable \u003cb\u003efirebase_key\u003c/b\u003e has following emails used: \u003col\u003e\u003cli\u003efirebase-adminsdk-uxy7k@ait-fsm-app.iam.gserviceaccount.com\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/builders",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management Test Theme\u003c/b\u003e: List \u003cb\u003eList Test\u003c/b\u003e has following emails used: \u003col\u003e\u003cli\u003enandangtest01@mailinator.com\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsmThme/1/datalist/builder/listTes",
+        "appId": "fsmThme",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eJoget User Management Utility for v6\u003c/b\u003e: UI \u003cb\u003eJoget User Management Utility for v6\u003c/b\u003e has following emails used: \u003col\u003e\u003cli\u003eaaa@gmail.com\u003c/li\u003e\u003cli\u003ebbb@gmail.com\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/jusermgnt6/1/userview/builder/jusermgnt6",
+        "appId": "jusermgnt6",
+        "suppressed": false
+      }
+    ],
+    "moreInfo": "Emails used in configuration need to be checked to ensure they are not public or unauthorized email addresses.",
+    "datas": {
+      "JogetDxShowcase_1": "{\"details\":[],\"timestamp\":1703066708535}",
+      "appcenter_2": "{\"details\":[],\"timestamp\":1715912896763}",
+      "jusermgnt6_1": "{\"details\":[{\"detail\":\"App \\u003cb\\u003eJoget User Management Utility for v6\\u003c/b\\u003e: UI \\u003cb\\u003eJoget User Management Utility for v6\\u003c/b\\u003e has following emails used: \\u003col\\u003e\\u003cli\\u003eaaa@gmail.com\\u003c/li\\u003e\\u003cli\\u003ebbb@gmail.com\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/jusermgnt6/1/userview/builder/jusermgnt6\",\"appId\":\"jusermgnt6\",\"suppressed\":false}],\"timestamp\":1705908093109}",
+      "fsm_3": "{\"details\":[{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: List \\u003cb\\u003eList - Tes Dao\\u003c/b\\u003e has following emails used: \\u003col\\u003e\\u003cli\\u003eadminsales@demo.com\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/datalist/builder/listTesDao\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: List \\u003cb\\u003eList Test Query\\u003c/b\\u003e has following emails used: \\u003col\\u003e\\u003cli\\u003eadmindep30@mailinator.com\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/datalist/builder/testList\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: List \\u003cb\\u003eList Test\\u003c/b\\u003e has following emails used: \\u003col\\u003e\\u003cli\\u003edhona.dwi@itasoft.co.id\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/datalist/builder/listTes\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: UI \\u003cb\\u003eField Service Management\\u003c/b\\u003e has following emails used: \\u003col\\u003e\\u003cli\\u003ename@example.com\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/userview/builder/FieldServiceManagement\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: App Variable \\u003cb\\u003efirebase_key\\u003c/b\\u003e has following emails used: \\u003col\\u003e\\u003cli\\u003efirebase-adminsdk-uxy7k@ait-fsm-app.iam.gserviceaccount.com\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/builders\",\"appId\":\"fsm\",\"suppressed\":false}],\"timestamp\":1720497851798}",
+      "isr_1": "{\"details\":[],\"timestamp\":1707807131327}",
+      "crm_1": "{\"details\":[],\"timestamp\":1703066693244}",
+      "expenseclaim_1": "{\"details\":[],\"timestamp\":1703066698775}",
+      "fsmThme_1": "{\"details\":[{\"detail\":\"App \\u003cb\\u003eField Service Management Test Theme\\u003c/b\\u003e: List \\u003cb\\u003eList Test\\u003c/b\\u003e has following emails used: \\u003col\\u003e\\u003cli\\u003enandangtest01@mailinator.com\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsmThme/1/datalist/builder/listTes\",\"appId\":\"fsmThme\",\"suppressed\":false}],\"timestamp\":1715046520035}",
+      "testRepeter_1": "{\"details\":[],\"timestamp\":1717990492976}",
+      "dashboard_1": "{\"details\":[],\"timestamp\":1703066695023}",
+      "jgooglemap_1": "{\"details\":[],\"timestamp\":1707708561546}",
+      "echartDemo_1": "{\"details\":[],\"timestamp\":1715848785093}"
+    },
+    "suppressable": true
+  },
+  "org.joget.governance.lib.CpuUsageCheck": {
+    "status": "FAIL",
+    "score": 22,
+    "timestamp": 1720500822274,
+    "details": [
+      {
+        "detail": "Average CPU load at 87.97% for last 10 minutes",
+        "link": "/web/console/monitor/apm",
+        "suppressed": false
+      }
+    ],
+    "suppressable": false
+  },
+  "org.joget.governance.lib.DbConnectionsCheck": {
+    "status": "PASS",
+    "score": 100,
+    "timestamp": 1720500822313,
+    "suppressable": false
+  },
+  "org.joget.governance.lib.MissingPluginCheck": {
+    "status": "FAIL",
+    "timestamp": 1720500826941,
+    "details": [
+      {
+        "detail": "App \u003cb\u003eTest Repeter\u003c/b\u003e: Missing plugins found \u003cbr/\u003e\u003col\u003e\u003cli\u003eid.co.itasoft.ait.fsm.plugin.theme.AITTheme\u003c/li\u003e\u003cli\u003eorg.joget.SubformRepeaterV2\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/testRepeter/1/builders",
+        "appId": "testRepeter",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eaitDynamic\u003c/b\u003e: Missing plugins found \u003cbr/\u003e\u003col\u003e\u003cli\u003eorg.dhona.tutorial.ApiElement\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/aitDynamic/1/builders",
+        "appId": "aitDynamic",
+        "suppressed": false
+      }
+    ],
+    "suppressable": false
+  },
+  "org.joget.governance.lib.HashVariableCheck": {
+    "status": "WARN",
+    "timestamp": 1720500825993,
+    "details": [
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eWork Order View\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/workOrderView",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eWork Order Task\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.activityId#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/workOrderTask",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eForm Task Management Edit\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#form.ait_mst_task.office#\u003c/li\u003e\u003cli\u003e#form.app_fd_ait_mst_task.organization_id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formTaskManagementUpdate",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eForm Setup User Employment Edit\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formSetupUserEmploymentEdit",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eFollow Up Task\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.processId#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/followUpTask",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eForm Master Agent Detail\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#form.ait_mst_agent.email#\u003c/li\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003cli\u003e#form.ait_mst_agent.employee_id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formMasterAgentDetail",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eForm Task Management Detail\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formTaskManagementDetail",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eForm Import Agent\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#form.ait_mst_agent.office#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formImportAgent",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eForm Setup User EmploymentUpd\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.user#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formSetupUserEmploymentUpd",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Form \u003cb\u003eAPI Management\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/apimanagement",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: List \u003cb\u003eList - Form Submit View\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.parentid#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/datalist/builder/list_formSubmitView",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: UI \u003cb\u003eField Service Management\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsm/3/userview/builder/FieldServiceManagement",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management Test Theme\u003c/b\u003e: Form \u003cb\u003eForm Setup User Employment\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsmThme/1/form/builder/formSetupUserEmployment",
+        "appId": "fsmThme",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management Test Theme\u003c/b\u003e: Form \u003cb\u003eForm Setup User Employment Edit\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsmThme/1/form/builder/formSetupUserEmploymentEdit",
+        "appId": "fsmThme",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management Test Theme\u003c/b\u003e: Form \u003cb\u003eForm Master Agent Edit\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#form.ait_mst_agent.email#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsmThme/1/form/builder/formMasterAgentEdit",
+        "appId": "fsmThme",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management Test Theme\u003c/b\u003e: List \u003cb\u003eList - Form Submit View\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.parentid#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/fsmThme/1/datalist/builder/list_formSubmitView",
+        "appId": "fsmThme",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eJoget DX Showcase\u003c/b\u003e: Form \u003cb\u003eProcess - Request\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.activityId#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/JogetDxShowcase/1/form/builder/processRequest",
+        "appId": "JogetDxShowcase",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eJoget User Management Utility for v6\u003c/b\u003e: Form \u003cb\u003eSetupDept\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/jusermgnt6/1/form/builder/SetupDept",
+        "appId": "jusermgnt6",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eJoget User Management Utility for v6\u003c/b\u003e: Form \u003cb\u003eSetupUserEmployment\u003c/b\u003e has following unsecure/unescaped Hash Variable used: \u003col\u003e\u003cli\u003e#requestParam.id#\u003c/li\u003e\u003c/ol\u003e",
+        "link": "/web/console/app/jusermgnt6/1/form/builder/SetupUserEmployment",
+        "appId": "jusermgnt6",
+        "suppressed": false
+      }
+    ],
+    "moreInfo": "Hash Variable used in SQL and script should escape with \"?sql\", \"?java\" or \"?javascript\".",
+    "datas": {
+      "JogetDxShowcase_1": "{\"details\":[{\"detail\":\"App \\u003cb\\u003eJoget DX Showcase\\u003c/b\\u003e: Form \\u003cb\\u003eProcess - Request\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.activityId#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/JogetDxShowcase/1/form/builder/processRequest\",\"appId\":\"JogetDxShowcase\",\"suppressed\":false}],\"timestamp\":1703066708535}",
+      "appcenter_2": "{\"details\":[],\"timestamp\":1715912896763}",
+      "jusermgnt6_1": "{\"details\":[{\"detail\":\"App \\u003cb\\u003eJoget User Management Utility for v6\\u003c/b\\u003e: Form \\u003cb\\u003eSetupDept\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/jusermgnt6/1/form/builder/SetupDept\",\"appId\":\"jusermgnt6\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eJoget User Management Utility for v6\\u003c/b\\u003e: Form \\u003cb\\u003eSetupUserEmployment\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/jusermgnt6/1/form/builder/SetupUserEmployment\",\"appId\":\"jusermgnt6\",\"suppressed\":false}],\"timestamp\":1705908093109}",
+      "fsm_3": "{\"details\":[{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eWork Order View\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/workOrderView\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eWork Order Task\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.activityId#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/workOrderTask\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eForm Task Management Edit\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#form.ait_mst_task.office#\\u003c/li\\u003e\\u003cli\\u003e#form.app_fd_ait_mst_task.organization_id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/formTaskManagementUpdate\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eForm Setup User Employment Edit\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/formSetupUserEmploymentEdit\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eFollow Up Task\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.processId#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/followUpTask\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eForm Master Agent Detail\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#form.ait_mst_agent.email#\\u003c/li\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003cli\\u003e#form.ait_mst_agent.employee_id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/formMasterAgentDetail\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eForm Task Management Detail\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/formTaskManagementDetail\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eForm Import Agent\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#form.ait_mst_agent.office#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/formImportAgent\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eForm Setup User EmploymentUpd\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.user#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/formSetupUserEmploymentUpd\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: Form \\u003cb\\u003eAPI Management\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/form/builder/apimanagement\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: List \\u003cb\\u003eList - Form Submit View\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.parentid#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/datalist/builder/list_formSubmitView\",\"appId\":\"fsm\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management\\u003c/b\\u003e: UI \\u003cb\\u003eField Service Management\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsm/3/userview/builder/FieldServiceManagement\",\"appId\":\"fsm\",\"suppressed\":false}],\"timestamp\":1720497851798}",
+      "isr_1": "{\"details\":[],\"timestamp\":1707807131327}",
+      "crm_1": "{\"details\":[],\"timestamp\":1703066693244}",
+      "expenseclaim_1": "{\"details\":[],\"timestamp\":1703066698775}",
+      "fsmThme_1": "{\"details\":[{\"detail\":\"App \\u003cb\\u003eField Service Management Test Theme\\u003c/b\\u003e: Form \\u003cb\\u003eForm Setup User Employment\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsmThme/1/form/builder/formSetupUserEmployment\",\"appId\":\"fsmThme\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management Test Theme\\u003c/b\\u003e: Form \\u003cb\\u003eForm Setup User Employment Edit\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.id#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsmThme/1/form/builder/formSetupUserEmploymentEdit\",\"appId\":\"fsmThme\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management Test Theme\\u003c/b\\u003e: Form \\u003cb\\u003eForm Master Agent Edit\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#form.ait_mst_agent.email#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsmThme/1/form/builder/formMasterAgentEdit\",\"appId\":\"fsmThme\",\"suppressed\":false},{\"detail\":\"App \\u003cb\\u003eField Service Management Test Theme\\u003c/b\\u003e: List \\u003cb\\u003eList - Form Submit View\\u003c/b\\u003e has following unsecure/unescaped Hash Variable used: \\u003col\\u003e\\u003cli\\u003e#requestParam.parentid#\\u003c/li\\u003e\\u003c/ol\\u003e\",\"link\":\"/web/console/app/fsmThme/1/datalist/builder/list_formSubmitView\",\"appId\":\"fsmThme\",\"suppressed\":false}],\"timestamp\":1715046520035}",
+      "testRepeter_1": "{\"details\":[],\"timestamp\":1717990492976}",
+      "dashboard_1": "{\"details\":[],\"timestamp\":1703066695023}",
+      "jgooglemap_1": "{\"details\":[],\"timestamp\":1707708561546}",
+      "echartDemo_1": "{\"details\":[],\"timestamp\":1715848785093}"
+    },
+    "suppressable": true
+  },
+  "org.joget.governance.lib.SecureUserviewsCheck": {
+    "status": "FAIL",
+    "timestamp": 1720500834672,
+    "details": [
+      {
+        "detail": "App \u003cb\u003eGoogle Maps\u003c/b\u003e: UI \u003cb\u003eGoogle Maps App\u003c/b\u003e has no permissions configured",
+        "link": "/web/console/app/jgooglemap/1/userview/builder/v",
+        "appId": "jgooglemap",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eJoget DX eChart Userview Plugin\u003c/b\u003e: UI \u003cb\u003eJoget DX eChart Userview Plugin\u003c/b\u003e has no permissions configured",
+        "link": "/web/console/app/echartDemo/1/userview/builder/v",
+        "appId": "echartDemo",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eJoget DX eChart Userview Plugin\u003c/b\u003e: UI \u003cb\u003eeCharts Demo\u003c/b\u003e has no permissions configured",
+        "link": "/web/console/app/echartDemo/1/userview/builder/charts",
+        "appId": "echartDemo",
+        "suppressed": false
+      }
+    ],
+    "suppressable": true
+  },
+  "org.joget.governance.lib.MemoryUsageCheck": {
+    "status": "PASS",
+    "score": 93,
+    "timestamp": 1720500826938,
+    "details": [
+      {
+        "detail": "Average free memory available at 29.52% for last 10 minutes",
+        "link": "/web/console/monitor/apm",
+        "suppressed": false
+      }
+    ],
+    "suppressable": false
+  },
+  "org.joget.governance.lib.ProcessDataIntegrityCheck": {
+    "status": "PASS",
+    "timestamp": 1720500834289,
+    "details": [],
+    "suppressable": true
+  },
+  "org.joget.governance.lib.NamingConventionCheck": {
+    "status": "WARN",
+    "timestamp": 1720500828553,
+    "details": [
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Inconsistent ID case for field ID \u003cb\u003efirstName\u003c/b\u003e detected in Form \u003cb\u003eForm Setup User EmploymentUpd\u003c/b\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formSetupUserEmploymentUpd",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management\u003c/b\u003e: Inconsistent ID case for field ID \u003cb\u003elastName\u003c/b\u003e detected in Form \u003cb\u003eForm Setup User EmploymentUpd\u003c/b\u003e",
+        "link": "/web/console/app/fsm/3/form/builder/formSetupUserEmploymentUpd",
+        "appId": "fsm",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eField Service Management Test Theme\u003c/b\u003e: Inconsistent ID case for field ID \u003cb\u003emodifiedbyname\u003c/b\u003e detected in Form \u003cb\u003eForm Master Agent Detail\u003c/b\u003e",
+        "link": "/web/console/app/fsmThme/1/form/builder/formMasterAgentDetail",
+        "appId": "fsmThme",
+        "suppressed": false
+      },
+      {
+        "detail": "App \u003cb\u003eaitDynamic\u003c/b\u003e: Inconsistent ID case for field ID \u003cb\u003emodifiedbyname\u003c/b\u003e detected in Form \u003cb\u003eForm Master Agent Detail\u003c/b\u003e",
+        "link": "/web/console/app/aitDynamic/1/form/builder/formMasterAgentDetail",
+        "appId": "aitDynamic",
+        "suppressed": false
+      }
+    ],
+    "suppressable": true
+  },
+  "org.joget.governance.lib.DeadlineCheckerAvailabilityCheck": {
+    "status": "PASS",
+    "timestamp": 1720500822313,
+    "suppressable": false
+  }
+}

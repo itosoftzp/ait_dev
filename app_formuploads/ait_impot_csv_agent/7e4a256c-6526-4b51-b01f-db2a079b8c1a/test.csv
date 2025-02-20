@@ -1,0 +1,4 @@
+name,phone,email,gender,employee_id,office,office_name,company,company_name,organization_id
+,+6282013348111,sembilan@gmail.com,female,112247,0c6fc826-f15f-4fe6-9c3e-1b5246a965f6,IT,ba7761c7-ef24-4f54-8e5c-3effa9d016f9,Finance,orgdemo
+User SepuluhB,+6282113348263,sepuluh@gmail.com,female,112245,0c6fc826-f15f-4fe6-9c3e-1b5246a965f6,Taller,ba7761c7-ef24-4f54-8e5c-3effa9d016f9,Finance,orgdemo
+User SembilanA,+6282013348111,sembilangmailcom,female,112247,0c6fc826-f15f-4fe6-9c3e-1b5246a965f6,IT,ba7761c7-ef24-4f54-8e5c-3effa9d016f9,Finance,1orgdemo

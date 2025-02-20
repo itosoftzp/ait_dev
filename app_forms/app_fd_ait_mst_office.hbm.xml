@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_ait_mst_office" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_ait_mst_office">
+        <id name="id" type="string"/>
+        <property index="idx_datecreated" name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property index="idx_createdby" name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_office_code_db" name="office_code_db" not-null="false" type="text"/><property column="c_address" name="address" not-null="false" type="text"/><property column="c_role" name="role" not-null="false" type="text"/><property column="c_city" name="city" not-null="false" type="text"/><property column="c_office_code" name="office_code" not-null="false" type="text"/><property column="c_zip_code" name="zip_code" not-null="false" type="text"/><property column="c_office_name" name="office_name" not-null="false" type="text"/><property column="c_province" name="province" not-null="false" type="text"/><property column="c_company_name" name="company_name" not-null="false" type="text"/><property column="c_district" name="district" not-null="false" type="text"/><property column="c_status_toast" name="status_toast" not-null="false" type="text"/><property column="c_organization_id" name="organization_id" not-null="false" type="text"/><property column="c_phone_number" name="phone_number" not-null="false" type="text"/><property column="c_company" name="company" not-null="false" type="text"/><property column="c_village" name="village" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>
